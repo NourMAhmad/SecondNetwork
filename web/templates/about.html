@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - 5G Networking Design and Operation Learning Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url_for('index') }}">5G Networking Design and Operation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to the 5G Networking Design and Operation Learning Platform, your ultimate resource for mastering 5G network design and operation. We are committed to providing high-quality education in 5G networking technologies, enabling individuals and organizations to excel in this cutting-edge domain.</p>
+            <p>Our team consists of seasoned professionals with extensive experience in 5G networking and operation. We have curated a comprehensive curriculum and practical exercises to facilitate your learning journey, whether you're a novice or an experienced practitioner.</p>
+        </section>
+
+        <section>
+            <h2>Our Mission</h2>
+            <p>Our mission at 5G Networking Design and Operation Learning Platform is to empower learners with the knowledge and skills needed to thrive in the world of 5G networking design and operation. We are committed to fostering a supportive learning environment and equipping our community with the tools to succeed in this rapidly evolving field.</p>
+        </section>
+        <section>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Expertly curated curriculum covering a wide range of 5G networking design and operation topics</li>
+                <li>Hands-on learning experiences with simulations and practical exercises</li>
+                <li>Engaging instructional materials developed by industry professionals</li>
+                <li>Interactive community forums for collaboration and knowledge sharing</li>
+                <li>Flexible learning options to accommodate diverse learning styles</li>
+                <li>Opportunities for professional development and career advancement</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
